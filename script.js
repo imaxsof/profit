@@ -10,4 +10,4 @@ document.querySelector('#clear').addEventListener('click', function() {
 	document.querySelector('.result').innerHTML = '';
 });
 
-document.querySelector('.result').innerHTML = window.Telegram.WebApp;
+document.querySelector('.result').innerHTML = JSON.stringify(window.Telegram.WebApp, null, 4);
