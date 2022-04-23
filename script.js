@@ -9,3 +9,5 @@ document.querySelector('#submit').addEventListener('click', function() {
 document.querySelector('#clear').addEventListener('click', function() {
 	document.querySelector('.result').innerHTML = '';
 });
+
+document.querySelector('.result').innerHTML = window.Telegram.WebApp;
